@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chuck Norris jokes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav1"><div class="txt">Categories of <span class="orange"> Jokes</span></div>Best <span class="orange">Chuck Norris</span> Jokes</div>
+    <div class="nav">
+        <img id="pot" src="caknoris.png  ">
+    </div>
+    <div class="main">
+    <div class="aside">
+        <button onclick="fetchByCategory('animal')">animal</button>
+        <button onclick="fetchByCategory('career')">career</button>
+        <button onclick="fetchByCategory('celebrity')">celebrity</button>
+        <button onclick="fetchByCategory('dev')">dev</button>
+        <button onclick="fetchByCategory('explicit')">explicit</button>
+        <button onclick="fetchByCategory('fashion')">fashion</button>
+        <button onclick="fetchByCategory('food')">food</button>
+        <button onclick="fetchByCategory('history')">history</button>
+        <button onclick="fetchByCategory('money')">money</button>
+        <button onclick="fetchByCategory('movie')">movie</button>
+        <button onclick="fetchByCategory('music')">music</button>
+        <button onclick="fetchByCategory('politician')">politician</button>
+        <button onclick="fetchByCategory('religion')">religion</button>
+        <button onclick="fetchByCategory('science')">science</button>
+        <button onclick="fetchByCategory('sport')">sport</button>
+        <button onclick="fetchByCategory('travel')">travel</button>
+    </div>
+    <div class="childMain">
+        <h1>Do you like this random <span class="orange">Chuck Norris</span> joke?</h1>
+    <div class="container"><hr class="orange">
+        
+    </div>
+    <div class="search1">
+        <h1>Choose category for <span class="orange">random</span> joke from it</h1>
+        <div class="category_container"><hr class="orange">
+        </div>
+
+            <div class="search2">
+                <h1>What is your favorite category<span class="orange">???</span></h1> 
+                <input type="text">
+                <button onclick="fetchByInput()">Search</button>
+                <div class="search_container"></div>
+                
+    </div>
+</div>
+</div>
+</div>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
